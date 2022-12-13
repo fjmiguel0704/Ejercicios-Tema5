@@ -19,6 +19,8 @@ public class Ejercicio3 {
 		for (double num: cantidad) {
 			System.out.println(num);
 		}
+		
+		read.close();
 
 	}
 
