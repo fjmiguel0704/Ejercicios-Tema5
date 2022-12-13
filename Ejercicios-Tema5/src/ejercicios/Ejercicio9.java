@@ -14,9 +14,7 @@ public class Ejercicio9 {
 			temperatura[i]=read.nextDouble();
 		}
 		
-		for (double tabla: temperatura) {
-			System.out.println("********"+"\n"+tabla+"º"+"\n");
-		}
+	
 
 	}
 
