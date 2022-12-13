@@ -9,8 +9,7 @@ public class Ejercicio8 {
 		
 		int numeros[]=new int [20];
 		for (int i = 0; i<numeros.length; i++) {
-			numAleatorios=(int)(Math.random()*100);
-			numeros[i]=numAleatorios;
+			numeros[i]=(int)(Math.random()*100);
 		}
 		
 		for (int valores: numeros) {
@@ -22,8 +21,7 @@ public class Ejercicio8 {
 		
 		int cuadrados[]=new int [20];
 		for (int i = 0;i<cuadrados.length; i++) {
-			alCuadrado= (int) Math.pow(numeros[i], 2);
-			cuadrados[i]=alCuadrado;
+			cuadrados[i]= (int) Math.pow(numeros[i], 2);
 		}
 		
 		for (int valores: cuadrados) {
@@ -35,8 +33,7 @@ public class Ejercicio8 {
 		
 		int cubos[]=new int [20];
 		for(int i = 0; i<cubos.length; i++) {
-			alCubo=(int)Math.pow(numeros[i], 3);
-			cubos[i]=alCubo;
+			cubos[i]=(int)Math.pow(numeros[i], 3);
 		}
 		
 		for (int valores: cubos) {
